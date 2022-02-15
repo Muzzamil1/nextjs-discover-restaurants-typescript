@@ -1,0 +1,11 @@
+// .eslintignore
+*.css
+*.svg
+build/*
+public/*
+resources/*
+package.json
+src/service-worker.js
+src/serviceWorkerRegistration.js
+src/setupTests.js
+src/reportWebVitals.js
