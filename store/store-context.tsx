@@ -1,10 +1,10 @@
 import React, { createContext, useReducer, Dispatch } from 'react';
 
-import { TRestaurants } from '../lib/restaurants';
+import { IRestaurant } from '../lib/restaurants';
 
 interface IState {
   latLong: string;
-  restaurants: TRestaurants[];
+  restaurants: IRestaurant[];
 }
 
 export enum EActionTypes {
@@ -22,7 +22,7 @@ type TActions =
   | {
     type: EActionTypes.SET_RESTAURANTS;
     payload: {
-      restaurants: TRestaurants[];
+      restaurants: IRestaurant[];
     };
   };
 

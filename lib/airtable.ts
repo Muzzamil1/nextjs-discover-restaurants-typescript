@@ -1,5 +1,4 @@
 import Airtable from 'airtable';
-import { FieldSet } from 'airtable/lib/field_set';
 import Record from 'airtable/lib/record';
 import { Records } from 'airtable/lib/records';
 import Table from 'airtable/lib/table';

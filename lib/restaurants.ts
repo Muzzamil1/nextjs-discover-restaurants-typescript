@@ -1,5 +1,3 @@
-//initialize unsplash
-
 import { createApi } from 'unsplash-js';
 
 import { config } from '../config';
