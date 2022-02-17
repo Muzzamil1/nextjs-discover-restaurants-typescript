@@ -88,7 +88,7 @@ const Restaurant = (initialProps: any) => {
   useEffect(() => {
     if (isEmpty(initialProps.restaurant)) {
       if (restaurants.length > 0) {
-        const RestaurantFromContext: IRestaurant = restaurants.find(
+        const RestaurantFromContext = restaurants.find(
           (restaurant) => {
             return restaurant.id.toString() === id; //dynamic id
           }
